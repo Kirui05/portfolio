@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ce1cfb39a2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!------------------- header section -------------->
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo" alt="">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#certification">Certification</a></li>
+                <li><a href="#software">Software</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Mechatronic Engineer & Software Developer</p>
+            <h1>Hi, I'm <span>Kirui</span><br>Nicholas from Kenya</h1>
+        </div>
+    </div>
+</div>
+
+<!-----------------------about section ------------------>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/kirui.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a Mechatronic engineering graduate registered as a graduate engineer with Engineering Board of Kenya (EBK) No.: B21178 and currently a Master Trainer, Basic Video Production and Editing, UK Digital Access Programme Project, “Strengthening Digital Communities” at Kenya ICT Action Network (KICTANet).</p>
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Microsoft tools</span><br>Microsoft Word, Microsoft Excel, Microsoft Powerpoint, Microsoft Project</li>
+                        <li><span>Software</span><br>ProjectLibre, Tableau, Minitab, Origin, Canva, WordPress, Adobe Premiere Pro, CapCut</li>
+                        <li><span>Programming languages</span><br>PHP, C/C++</li>
+                        <li><span>CAD</span><br>Solidworks, Simatic Step 7 (TIA Portal), Siemens NX, KiCad, Autodesk Revit, Autodesk Inventor</li>
+                        <li><span>Operating system</span><br>Windows, Ubuntu Linux, MacOs</li>
+                        <li><span>Soft skills</span><br>Adaptive personality, Time Management, Teamwork, Problem‑solving, Willingness to learn, Creativity, Leadership and Mentorship</li>
+                    </ul>
+                </div><div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Oct 2024 - Present</span><br>Master Trainer, Basic Video Production and Editing, UK Digital Access Programme Project - Kenya ICT Action Network (KICTANet)</li>
+                        <li><span>April 2024 - Sep 2024</span><br>Project Management Intern - Balora Ltd</li>
+                        <li><span>Apr 2023 - Jul 2023</span><br>Advanced WordPress Development Trainee - The Jitu</li>
+                        <li><span>Sep 2021 - Dec 2021</span><br>Mechatronic Engineering Intern (Industrial Engineer) - MAS Intimates Kenya (EPZ) Ltd</li>
+                        <li><span>Jan 2020 - Sep 2020</span><br>Mechatronic Engineering Intern - Siemens Centre (Dedan Kimathi University of Technology)</li>
+                        <li><span>Oct 2029 - Oct 2021</span><br>Graduate Assistant - Dedan Kimathi University of Technology</li>
+                        <li><span>Feb 2018 - Apr 2018</span><br>Mechatronic Engineering Attaché - Department of Transport, Public Works, Infrastructure and Energy</li>
+                        <li><span>Jan 2017 - Apr 2017</span><br>Mechatronic Engineering Attaché - New Kenya Co‑operative Creameries</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Oct 2019 - Present</span><br>Master of Science (M.Sc Advanced Manufacturing and Automation Engineering) - Dedan Kimathi University of Technology</li>
+                        <li><span>Sep 2014 - Apr 2019</span><br>Bachelor of Science (B.Sc Mechatronic Engineering) - Dedan Kimathi University of Technology</li>
+                        <li><span>Feb 2010 - Nov 2013</span><br>KCSE - Tenwek High School</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- -------------------- Services Section-------------------- -->
+
+<div id="certification">
+    <div class="container">
+        <h1 class="sub-title">Certifications</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-mask-ventilator"></i>
+                <h2>Microsoft Excel ‑ Excel from Beginner to Advanced, Udemy</h2>
+                <a href="#">2024</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-microchip"></i>
+                <h2>Advanced WordPress training, TheJitu</h2>
+                    <a href="#">2023</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-recycle"></i>
+                <h2>SMSCP Assistant, Siemens Mechatronic System Certification Program (Level I & II)</h2>
+                <a href="#">2020</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -----------portforlio section---------------- -->
+ <div id="software">
+    <div class="container">
+        <h1 class="sub-title">Software</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/easymanage.png" alt="">
+                <div class="layer">
+                    <h3>EasyManage</h3>
+                    <p>A user-friendly project management tool aimed at streamlining task tracking, collaboration, and productivity for teams of all sizes.</p>
+                    <a href="https://github.com/Kirui05/EasyManage"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/techwise.png" alt="">
+                <div class="layer">
+                    <h3>TechWise Academy</h3>
+                    <p>A platform designed to provide interactive and comprehensive tech education for beginners and professionals through engaging courses and tutorials.</p>
+                    <a href="https://github.com/Kirui05/techwise"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/afrogala.png" alt="">
+                <div class="layer">
+                    <h3>Afrogala</h3>
+                    <p>A vibrant online marketplace celebrating African culture, featuring curated art, fashion, and crafts from talented artisans across the continent.</p>
+                    <a href="https://github.com/Kirui05/afrogala"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/Kirui05"  class="btn">See more</a>
+    </div>
+ </div>
+
+<!-- ---------------Contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"> Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i>nicholaskirui6@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+254715931458</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=61555951965268"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://github.com/Kirui05"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://x.com/theeboss_nick"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/nicholas-kirui-a05153341/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/1R_B8dZGTqun_Wd2VjH5GevyNzOtAnemP/view?usp=drive_link" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email"  placeholder="Your Email" required>
+                    <textarea name="Message" rows="10" cols="30" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2025 | Nicholas Kipyegon Kirui</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyiQ11Q3AO3E-m-fL3YLlbgu74AeVjxGxSSV6vLaqdAb0Smc_eTJLNALu3vODQQjCU1rA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        }) 
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
